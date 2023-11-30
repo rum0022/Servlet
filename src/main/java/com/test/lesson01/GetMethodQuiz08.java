@@ -38,7 +38,7 @@ public class GetMethodQuiz08 extends HttpServlet {
 //				out.print(list.get(i) + "<br>");
 //			}
 //		}
-		
+		// add comment
 		Iterator<String> iter = list.iterator();
 		while (iter.hasNext()) {
 			String line = iter.next();
