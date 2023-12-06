@@ -38,7 +38,7 @@
 
  <div class="container">
 	<h1 class="text-center">검색결과</h1>
-	<table>
+	<table class="table">
 		<thead>
 			<tr>
 			 	<th>메뉴</th>
@@ -54,7 +54,7 @@
 		
 	%>
 			<tr>
-				<td><%=item.get("menu")%></td>
+				<td><%=item.get("menu") %></td>
 				<td><%=item.get("name") %></td>
 				<td><%=item.get("point")%></td>
 			</tr>
