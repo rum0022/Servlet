@@ -6,10 +6,12 @@
 	</h3>
 </div>
 <div class="col-10">
-	<div class="input-group">
-		<input type="text" class="form-control col-6" name="search">
+	<form method="get" action="/lesson03/quiz02/content_layout.jsp">
 		<div class="input-group">
-			<input type="submit" claass="btn btn-info" value="검색">
+			<input type="text" class="form-control col-6" name="search">
+			<div class="input-group">
+				<input type="submit" class="btn btn-info" value="검색">
+			</div>
 		</div>
-	</div>
+	</form>
 </div>
